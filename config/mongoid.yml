@@ -1,0 +1,11 @@
+development:
+  sessions:
+    default:
+      database: antoniochavez_development
+      hosts: localhost:27017
+
+production:
+  sessions:
+    default:
+      database: antoniochavez
+      hosts: localhost:27017
