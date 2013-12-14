@@ -1,1 +1,28 @@
-.small-8.columns
+.row
+  .small-3.small-offset-4.columns
+    %a.th.radius
+      = image_tag "resume-me.jpg"
+.row
+  .small-2.columns
+    %h3 Study
+  .small-10.columns
+    %p.text-centered
+      I studied computer science engineering at
+      = link_to "Instituto tecnológico de Colima", "http://itcolima.edu.mx", target: '_itcolima'
+.row
+  .small-2.columns
+    %h3 Work
+  .small-10.columns
+    %p.text-centered
+      I'm currently working at
+      = link_to "TangoSource", "http://tangosource.com", target: '_tangosource'
+.row
+  .small-2.columns
+    %h3 Skills
+  .small-10.columns
+    .small-6.columns
+      %ul.no-bullet
+        %li item
+    .small-6.columns
+      %ul.no-bullet
+        %li item

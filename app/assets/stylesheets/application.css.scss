@@ -44,14 +44,14 @@
   min-height: 400px;
 }
 
+.navigation-bar {
+  height: 50px;
+  background-color: white;
+}
+
 .blank-space {
   min-height: 100px;
   background: rgba(0,0,0,0.5);
-}
-
-.top-bar {
-  background: white;
-  color: black;
 }
 
 @media (min-width: 1200px) {
@@ -75,4 +75,11 @@
     color: white;
     text-align: justify;
   }
+}
+
+.main-row {
+  padding-top: 10px;
+}
+p.text-centered {
+  padding-top: 10px;
 }
