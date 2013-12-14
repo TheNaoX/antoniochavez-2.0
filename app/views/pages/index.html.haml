@@ -1,28 +1,88 @@
-.row
-  .small-3.small-offset-4.columns
-    %a.th.radius
-      = image_tag "resume-me.jpg"
-.row
-  .small-2.columns
-    %h3 Study
-  .small-10.columns
-    %p.text-centered
-      I studied computer science engineering at
-      = link_to "Instituto tecnológico de Colima", "http://itcolima.edu.mx", target: '_itcolima'
-.row
-  .small-2.columns
-    %h3 Work
-  .small-10.columns
-    %p.text-centered
-      I'm currently working at
-      = link_to "TangoSource", "http://tangosource.com", target: '_tangosource'
-.row
-  .small-2.columns
-    %h3 Skills
-  .small-10.columns
-    .small-6.columns
-      %ul.no-bullet
-        %li item
-    .small-6.columns
-      %ul.no-bullet
-        %li item
+.background-transparent
+  .row
+    .small-3.columns
+      %a.th.radius
+        = image_tag "resume-me.jpg"
+    .small-9.columns
+      %h1
+        Antonio Chávez
+        %small Software engineer
+      %ul.inline-list
+        %li
+          %p
+            %a{ href: 'https://twitter.com/The_NaoX', target: '_twitter' }
+              %i.fi-social-twitter
+              Twitter
+        %li
+          %p
+            %a{ href: 'https://www.facebook.com/TheNaoX', target: '_facebook' }
+              %i.fi-social-facebook
+              Facebook
+        %li
+          %p
+            %a{ href: 'http://www.linkedin.com/pub/juan-antonio-chavez-valencia/49/4b6/145', target: '_linked_in' }
+              %i.fi-social-linkedin
+              LinkedIn
+        %li
+          %p
+            %a{ href: 'https://github.com/TheNaoX', target: '_linked_in' }
+              %i.fi-social-github.large
+              Github
+        %li
+          %p
+            %a{ href: 'skype:antonio.chavez.valencia' }
+              %i.fi-social-skype.large
+              Skype
+        %li
+          %p
+            %a{ href: 'mailto:cavjzz@gmail.com' }
+              %i.fi-mail.large
+              Mail
+.background-white
+  .row
+    .small-2.columns
+      %h3 About me
+    .small-10.columns.about-text
+      %p Software engineer, fast learner, and lover of complex music. I'm a Ruby on Rails developer and JavaScript enthusiast. I like to get things done in a timely fashion and with great quality of code, with challenges like breaking down complex requirements into real software. I'm always looking forward to learning how specific technologies work deeply, and I reinvent myself every once in a while.
+.background-transparent
+  .row
+    .small-2.columns
+      %h3 Study
+    .small-10.columns
+      %p.text-centered
+        I studied computer science engineering at
+        = link_to "Instituto tecnológico de Colima", "http://itcolima.edu.mx", target: '_itcolima'
+.background-white
+  .row
+    .small-2.columns
+      %h3 Work
+    .small-10.columns
+      %p.text-centered
+        I'm currently working at
+        = link_to "TangoSource", "http://tangosource.com", target: '_tangosource'
+.background-transparent
+  .row
+    .small-2.columns
+      %h3 Skills
+    .small-10.columns
+      .small-6.columns
+        %ul.no-bullet
+          %li Ruby
+          %li JavaScript
+          %li NodeJS (this website is built in nodejs)
+          %li HTML
+          %li Vim
+          %li Git
+      .small-6.columns
+        %ul.no-bullet
+          %li Bash
+          %li Ruby on Rails
+          %li BackboneJS
+          %li AngularJS
+          %li Application deployment
+          %li And many more...
+.background-white
+  .row
+    .small-2.columns
+      %h3 Portfolio
+    .small-10.columns
