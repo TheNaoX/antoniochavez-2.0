@@ -23,6 +23,13 @@
   z-index: -1;
 }
 
+.profile-image {
+  text-align: center;
+  img {
+    width: 200px;
+  }
+}
+
 .main-container {
   min-height: 400px;
 }
