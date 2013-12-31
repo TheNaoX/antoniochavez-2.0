@@ -26,12 +26,15 @@
 .profile-image {
   text-align: center;
   img {
-    width: 200px;
+    width: 150px;
   }
 }
 
 .profile-links {
   text-align: center;
+  ul {
+    display: inline-block;
+  }
 }
 
 .main-container {
