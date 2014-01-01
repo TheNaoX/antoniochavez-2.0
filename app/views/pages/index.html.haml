@@ -1,50 +1,4 @@
-.background-transparent(style='padding:50px 0 0 0;')
-  .row
-    .large-12.columns.profile-image
-      %a.th.radius
-        = image_tag "resume-me.jpg"
-  .row
-    .large-12.columns.profile-links
-      %h1
-        Antonio Chávez
-        %small Software engineer
-      %ul.inline-list
-        %li
-          %p
-            %a{ href: 'https://twitter.com/The_NaoX', target: '_twitter' }
-              %i.fi-social-twitter
-              Twitter
-        %li
-          %p
-            %a{ href: 'https://www.facebook.com/TheNaoX', target: '_facebook' }
-              %i.fi-social-facebook
-              Facebook
-        %li
-          %p
-            %a{ href: 'http://www.linkedin.com/pub/juan-antonio-chavez-valencia/49/4b6/145', target: '_linked_in' }
-              %i.fi-social-linkedin
-              LinkedIn
-        %li
-          %p
-            %a{ href: 'https://github.com/TheNaoX', target: '_linked_in' }
-              %i.fi-social-github.large
-              Github
-        %li
-          %p
-            %a{ href: 'skype:antonio.chavez.valencia' }
-              %i.fi-social-skype.large
-              Skype
-        %li
-          %p
-            %a{ href: 'mailto:cavjzz@gmail.com' }
-              %i.fi-mail.large
-              Mail
-.background-transparent
-  .row
-    .large-3.columns
-      %h3 About me
-    .large-9.columns.about-text
-      %p Software engineer, fast learner, and lover of complex music. I'm a Ruby on Rails developer and JavaScript enthusiast. I like to get things done in a timely fashion and with great quality of code, with challenges like breaking down complex requirements into real software. I'm always looking forward to learning how specific technologies work deeply, and I reinvent myself every once in a while.
+= render 'title'
 .background-white
   .row
     .large-3.columns
@@ -53,6 +7,7 @@
       %p.text-centered
         I studied computer science engineering at
         = link_to "Instituto tecnológico de Colima", "http://itcolima.edu.mx", target: '_itcolima'
+.separator-white
 .background-white
   .row
     .large-3.columns
@@ -61,6 +16,7 @@
       %p.text-centered
         I'm currently working at
         = link_to "TangoSource", "http://tangosource.com", target: '_tangosource'
+.separator-white
 .background-white
   .row
     .large-3.columns
@@ -82,6 +38,7 @@
           %li AngularJS
           %li Application deployment
           %li And many more...
+.separator-white
 .background-white
   .row
     .large-3.columns

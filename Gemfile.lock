@@ -147,6 +147,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bson
   coffee-rails (~> 4.0.0)
   haml-rails
   jbuilder (~> 1.2)
