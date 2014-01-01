@@ -13,31 +13,42 @@
     .large-3.columns
       %h3 Work
     .large-9.columns
-      %p.text-centered
-        I'm currently working at
-        = link_to "TangoSource", "http://tangosource.com", target: '_tangosource'
+      .large-4.columns
+        %p.text-centered I'm currently working at
+      .large-8.columns
+        = link_to "http://tangosource.com", target: '_tangosource' do
+          = image_tag 'tangosource1.png'
 .separator-white
 .background-white
   .row
     .large-3.columns
       %h3 Skills
     .large-9.columns
-      .large-6.columns
+      .large-4.columns
+        %h5 Programming languages
         %ul.no-bullet
           %li Ruby
           %li JavaScript
-          %li NodeJS (this website is built in nodejs)
+          %li NodeJS
           %li HTML
+          %li CSS
+      .large-4.columns
+        %h5 Frameworks
+        %ul.no-bullet
+          %li Ruby on Rails
+          %li Sinatra
+          %li Backbone.js
+          %li Angular.js
+          %li Express.js
+          %li Bootstrap
+          %li Foundation
+      .large-4.columns
+        %h5 Software tools
+        %ul.no-bullet
           %li Vim
           %li Git
-      .large-6.columns
-        %ul.no-bullet
           %li Bash
-          %li Ruby on Rails
-          %li BackboneJS
-          %li AngularJS
-          %li Application deployment
-          %li And many more...
+          %li Mac OS X
 .separator-white
 .background-white
   .row
